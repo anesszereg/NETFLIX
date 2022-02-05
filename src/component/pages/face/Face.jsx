@@ -1,13 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import Box from '../Box/box';
+import Box from '../../Box/Box';
 import axios from "axios"
 import './Face.css'
-import Image from './logo.png';
+
 import Image2 from './bg.jpg'
 import Image3 from './name.png'
 import Image4 from './play.png'
 import video from './video.mp4'
 import Image5 from './close.png'
+import Navbar from '../../Navbar/Navbar';
 // import { StyledComponentProps } from '@material-ui/core';
 function Face({title}) {
     const [data, setData] = useState([]);
@@ -27,36 +28,7 @@ function Face({title}) {
 
 
     return <div>
-        <div className="navbar">
-            <a href=""><img src={Image}
-                    alt=""
-                    className="logo"/></a>
-            <div className="left">
-
-                <ul className="left">
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">TV Show</a>
-                    </li>
-                    <li>
-                        <a href="">Movies</a>
-                    </li>
-                    <li>
-                        <a href="">Latest</a>
-                    </li>
-                    <li>
-                        <a href="">My List</a>
-                    </li>
-                </ul>
-            </div>
-            <div className="search">
-                <input type="text" placeholder='search'/>
-
-
-            </div>
-        </div>
+       <Navbar/>
         <div className="big-one">
             <img src={Image2}
                 alt=""

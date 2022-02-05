@@ -1,0 +1,11 @@
+.big-one {
+    position: relative;
+    width: 100%;
+
+    color: #fff;
+    /* min-height: 100vh; */
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
