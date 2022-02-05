@@ -1,0 +1,35 @@
+.element {
+  height: 70vh;
+  width: 22vw;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(29, 25, 25);
+}
+.element:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.61);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.61);
+}
+.images {
+  height: 45vh;
+  width: 100%;
+  object-fit: cover;
+}
+.images:hover{
+    
+    height: 40vh;
+}
+.title2 {
+  padding: 10px;
+  margin-left: 10px;
+}
+h2,
+h4 {
+  margin: 0;
+}
+.element:hover{
+    /* padding: 20px; */
+    height: 65vh;
+    width: 20vw;
+
+}
