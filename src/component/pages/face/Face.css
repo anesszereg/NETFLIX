@@ -8,7 +8,6 @@
 
 
 .big-one {
-  /* position: relative;/ */
   width: 100%;
   min-height: 100vh;
   padding: 0 100px;
@@ -22,16 +21,9 @@
     180deg, transparent,rgba(37,37,37,0.611),#111
 
   );
-  /* z-index: 0; */
+ 
 }
-/* .big-one .bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 87%;
-  height: 100%;
-  object-fit: cover;
-} */
+
 .content {
   position: relative;
   z-index: 1;

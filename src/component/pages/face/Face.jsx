@@ -7,34 +7,19 @@ import Row from "../../Row/Row";
 
 
 import Image4 from "./play.png";
-// import video from "./video.mp4";
-import Image5 from "./close.png";
-// import { StyledComponentProps } from '@material-ui/core';
+
+
 function Face() {
 
-    // API code for harry potter caracters and there informations
+    
 
-
-    // const [data, setData] = useState([]);
-    // useEffect(() => {
-    // async function fatchData() {
-    //     const response = await axios.get(
-    //       "http://hp-api.herokuapp.com/api/characters"
-    //     );
-    //     setData(response.data);
-    // }
-    // fatchData();
-    // }, []);
-
-
-    // console.log(data);
 
     // trailer:
 
     const [show, setShow] = useState(false);
 
 
-    // iformation of  movies
+    // description of  movies
 
     function truncate(string, n) {
         return string ?. length > n ? string.substr(0, n - 1) + '...' : string;
@@ -111,21 +96,7 @@ function Face() {
             </div>
 
 
-            {
-            show ? (
-                <div className="trailer">
-                    {/* <video src={video}
-                        controls="true"
-                        autoPlay="true"></video> */}
-                    <img src={Image5}
-                        alt=""
-                        className="close"
-                        onClick={
-                            () => setShow(false)
-                        }/>
-                </div>
-            ) : null
-        }
+           
 
 
 
