@@ -7,8 +7,9 @@
     left: 0;
     width: 100%;
     align-items: center;
-    padding: 30px 0;
-    z-index: 100;
+    padding: 10px 0;
+    /* z-index: 100; */
+    /* background-color: #000 */
     /* margin-top: 20px; */
     /* overflow: hidden; */
     /* justify-content: space-between; */
@@ -50,7 +51,7 @@
     border: 1px solid rgba(225, 225, 2555, 0.5);
     outline: none;
     border-radius: 4px;
-    padding: 0 10px 0 45px;
+    
     backdrop-filter: blur(10px);
   }
   .search input::placeholder {

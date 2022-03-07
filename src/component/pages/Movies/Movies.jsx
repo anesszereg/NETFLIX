@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../../Navbar/Navbar';
+import Loding from '../../Loding/Loding';
 
 function Movies() {
   return <div>
       <Navbar/>
-     <h1>Movies</h1>
+      <Loding/>
+    
   </div>;
 }
 

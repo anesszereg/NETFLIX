@@ -5,11 +5,10 @@ import './App.css'
 import Navbar from './component/Navbar/Navbar'
 import {Routes,Route} from 'react-router-dom'
 import Home from './component/pages/face/Face'
-import Latest from './component/pages/Latest'
-import MyList from './component/pages/MyList'
-import Movies from './component/pages/Movies'
-import TVShow from './component/pages/TVShow'
-
+import Latest from './component/pages/Latest/Latest'
+import MyList from './component/pages/MyList/MyList'
+import Movies from './component/pages/Movies/Movies'
+import TVShow from './component/pages/TVShow/TVShow'
 
 function App() {
   // const [count, setCount] = useState(0)

@@ -8,7 +8,7 @@
 
 
 .big-one {
-  position: relative;
+  /* position: relative;/ */
   width: 100%;
   min-height: 100vh;
   padding: 0 100px;
@@ -16,21 +16,31 @@
   justify-content: flex-start;
   align-items: center;
 }
-.big-one .bg {
+.under-image{
+  height: 7.8rem;
+  background-image: linear-gradient(
+    180deg, transparent,rgba(37,37,37,0.611),#111
+
+  );
+  /* z-index: 0; */
+}
+/* .big-one .bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 87%;
   height: 100%;
   object-fit: cover;
-}
+} */
 .content {
   position: relative;
   z-index: 1;
   max-width: 550px;
 }
 .movieTitle {
-  max-width: 250px;
+  max-width: 400px;
+  font-size:50px;
+  color:white;
 }
 
 .big-one .content h4 {
@@ -223,6 +233,7 @@
   );
   background-size: 500%;
   animation: bg 0.5s infinite alternate;
+  /* text-align:e */
 }
 
 @keyframes bg {
