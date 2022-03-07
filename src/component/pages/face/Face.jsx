@@ -7,7 +7,7 @@ import Row from "../../Row/Row";
 
 
 import Image4 from "./play.png";
-import video from "./video.mp4";
+// import video from "./video.mp4";
 import Image5 from "./close.png";
 // import { StyledComponentProps } from '@material-ui/core';
 function Face() {
@@ -114,9 +114,9 @@ function Face() {
             {
             show ? (
                 <div className="trailer">
-                    <video src={video}
+                    {/* <video src={video}
                         controls="true"
-                        autoPlay="true"></video>
+                        autoPlay="true"></video> */}
                     <img src={Image5}
                         alt=""
                         className="close"
